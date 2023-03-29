@@ -1,0 +1,75 @@
+-- phpMyAdmin SQL Dump
+-- version 5.2.0
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Sep 16, 2022 at 06:39 PM
+-- Server version: 10.4.24-MariaDB
+-- PHP Version: 8.1.6
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `academytable`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `sportsworldacademy`
+--
+
+CREATE TABLE `sportsworldacademy` (
+  `Sno` int(11) NOT NULL,
+  `firstName` varchar(20) NOT NULL,
+  `lastName` varchar(20) NOT NULL,
+  `gender` varchar(20) NOT NULL,
+  `email` varchar(20) NOT NULL,
+  `phonenumber` bigint(10) NOT NULL,
+  `sports` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `sportsworldacademy`
+--
+
+INSERT INTO `sportsworldacademy` (`Sno`, `firstName`, `lastName`, `gender`, `email`, `phonenumber`, `sports`) VALUES
+(29, 'himanshu', 'yadav', 'male', 'yadav@gmail', 7777777777, 'Cricket'),
+(30, 'singh', 'arman', 'male', 'singh@gmail.com', 999999999958, 'Football'),
+(31, 'arman', 'anu', 'male', 'anuragpal@gmail.com', 9969780191, 'Badminton'),
+(32, 'Kunal', 'Adhikari', 'male', 'kunal@gmail.com', 9873124565, 'Cricket');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `sportsworldacademy`
+--
+ALTER TABLE `sportsworldacademy`
+  ADD PRIMARY KEY (`Sno`),
+  ADD UNIQUE KEY `email` (`email`),
+  ADD UNIQUE KEY `phonenumber` (`phonenumber`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `sportsworldacademy`
+--
+ALTER TABLE `sportsworldacademy`
+  MODIFY `Sno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

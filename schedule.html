@@ -1,0 +1,260 @@
+<html>
+  <head>
+    <head>
+      <meta name="viewport" content="with=device-width, intial-scale=1.0">
+      <title>SPORTS WORLD ACADEMY</title>
+      <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown1 {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: grey;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+</style>
+      <style>
+        table, th, td {
+          border: 1px solid black;  
+margin-left: auto;  
+margin-right: auto;  
+border-collapse: collapse;    
+width: 1000px;  
+text-align: center;  
+font-size: 18px;  
+}
+      </style>
+      <!--<style>
+        body {
+          background-image: url('image/bg8.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;  
+          background-size: cover;
+        }
+        </style><b> --> 
+    </b></head>
+  </head>
+
+    <body style="background-color:lightcoral;">
+      <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <!--<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl">SPORTS WORLD ACADEMY</span>-->
+            <a href="try.html"><img alt="icon" src="image/sitelogo.png" width="300" height="300"></a>
+          </a>
+          <!--<nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+            <a href="try.html" class="mr-5 hover:text-gray-900"><b>HOME</b></a>
+            <a href="about.html" class="mr-5 hover:text-gray-900"><b>ABOUT</b></a>
+            <a href="gallery.html" class="mr-5 hover:text-gray-900"><b>GALLERY</b></a>
+            <a href="contact.html" class="mr-5 hover:text-gray-900"><b>CONTACT</b></a>
+          </nav>-->
+
+          <div class="navbar">
+            <a href="try.html">HOME</a>
+            <div class="dropdown">
+              <button class="dropbtn">ABOUT 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="about.html">SPORTS WORLD ACADEMY</a>
+                <a href="visionandvalue.html">VISION AND VALUE</a>
+                <a href="#">COACHES</a>
+                <a href="schedule.html">SCHEDULE</a>
+                <a href="achievement.html">ACHIEVEMENTS</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">SPORTS
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">FOOTBALL</a>
+                <a href="#">BASKETBALL</a>
+                <a href="#">CRICKET</a>
+                <a href="#">BADMINTON</a>
+                <a href="#">ATHLETICS</a>
+              </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="location.href='gallery.html'">GALLERY
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#footballgallery">FOOTBALL</a>
+                  <a href="#">BASKETBALL</a>
+                  <a href="#">CRICKET</a>
+                  <a href="#">BADMINTON</a>
+                  <a href="#">ATHLETICS</a>
+                </div>
+            </div>
+            <a href="contact.html">CONTACT</a>
+            <a href="mainregisterform.php">REGISTER</a>
+            </div> 
+        </div>
+      </header>
+      <section class="center">
+      <table border-10 mergin=center cellspacing=20 cellpadding=40 width=50>
+        <tr bgcolor=darkgreen><th><u>Sports</u></th><th><u>Days</u></th><th><u>Timing</u></th><th><u>Venue</u></th></tr>
+        <tr bgcolor=lightgreen><td>Football</td><td>Monday-Tuesday</td><td>4-6pm</td><td><a href="https://www.google.com/maps/dir/18.9068527,72.8160973/naval+dsouza+ground/@18.9795435,72.7556842,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3be7c93959f1e5f5:0xabc4a60ff39b1c2!2m2!1d72.8328434!2d19.0512954"><u> Neville D'Souza Football Turf</u></a></td></tr>
+        <tr bgcolor=darkgreen><td>Cricket</td><td>Tuesday-Wednesday</td><td>6-8am</td><td><a href="https://www.google.com/maps/dir/18.9068527,72.8160973/oval+ground/@18.9197382,72.8153535,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3be7d1c2961479bf:0x6302dec0987da87b!2m2!1d72.8288877!2d18.9296227"> <u>Oval Maidan</u></a></td></tr>
+        <tr bgcolor=lightgreen><td>Basketball</td><td>Wednesday-Thrusday</td><td>3-5pm</td><td><a href="https://www.google.com/maps/dir/18.9068527,72.8160973/Fr.+Agnel+Basketball+Courts/@18.9920321,72.7676801,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3be7c134b5abd8f5:0x2250d93267b41b6d!2m2!1d72.9935076!2d19.0775298"><u> Fr. Agnel Basketball Courts</u></a></td></tr>
+        <tr bgcolor=darkgreen><td>Athletics</td><td>Thrusday-Friday</td><td>5-7pm</td><td><a href="https://www.google.com/maps/dir/18.9068527,72.8160973/Wings+Sports+Centre/@18.9795435,72.7557821,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3be7c984f6dfaf3d:0x5e328d8bdd6a1efc!2m2!1d72.8307868!2d19.0508594"> <u>Wings Sports Centre</u></a></td></tr>
+        <tr bgcolor=lightgreen><td>Badmition</td><td>Friday-Saturday</td><td>2-4pm</td><td><a href="https://www.google.com/maps/dir/18.9068527,72.8160973/Bombay+Gymkhana/@18.9226017,72.8065986,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3be7d1dea37f4519:0x9292504f765747c3!2m2!1d72.8308381!2d18.9372333"><u> Bombay Gymkhana</u></a></td></tr>
+      </table>
+      </section>
+<br>
+<br>
+      <hr>
+<br>
+
+      <footer class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap md:text-left text-center order-first">
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"><b>SPORTS WORLD ACADEMY</b></h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a style="color:black" href="try.html" class="text-gray-600 hover:text-gray-800"><b>HOME</b></a>
+                </li>
+                <li>
+                  <a style="color:black" href="about.html" class="text-gray-600 hover:text-gray-800"><b>ABOUT</b></a>
+                </li>
+                <li>
+                  <a style="color:black" href="gallery.html"class="text-gray-600 hover:text-gray-800"><b>GALLERY</b></a>
+                </li>
+                <li>
+                  <a style="color:black" href="contact.html"class="text-gray-600 hover:text-gray-800"><b>CONTACT</b></a>
+                </li>
+              </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"><b>SOCIAL LINKS</b></h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a href="https://www.facebook.com/profile.php?id=100010057609454" class="text-gray-600 hover:text-gray-800"><b>FACEBOOK</b></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/arman_singh.10/" class="text-gray-600 hover:text-gray-800"><b>INSTAGRAM</b></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/home"class="text-gray-600 hover:text-gray-800"><b>TWITTER</b></a>
+                </li>
+                <li>
+                  <a href="https://youtube.com/channel/UChAF_uc7I9nQgzCLBsmYVmQ"class="text-gray-600 hover:text-gray-800"><b>YOUTUBE</b></a>
+                </li>
+              </nav>
+              <p class="text-gray-500 text-sm mt-2 md:text-left text-center">Bitters chicharrones fanny pack
+                <br class="lg:block hidden">waistcoat green juice
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-100">
+          <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+            <!--<a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+              </svg>
+              <span class="ml-3 text-xl">Tailblocks</span>-->
+              <a href="try.html"><img alt="icon" src="image/sitelogo.png" width="300" height="300"></a>
+            </a>
+            <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2022 SOPRTSWORLDACADEMY —
+              <a href="https://twitter.com/home" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@sportsworldacademyowner</a>
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+              <a class="text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z">
+                  </path>                
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                  <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </footer>
+
+</body>
+</html>
